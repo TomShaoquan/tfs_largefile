@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{86e8559f-bcf8-470c-8e83-5caba5a7bab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3b3adc64-3e15-486b-b789-5eb9e1b3c022}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file_op.h" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="mmap_file.h" />
+    <ClInclude Include="mmap_file_op.h" />
+    <ClInclude Include="index_handle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="file_op.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="mmap_file.cpp" />
+    <ClCompile Include="file_op_test.cpp" />
+    <ClCompile Include="mmap_file_op.cpp" />
+    <ClCompile Include="mmap_file_op_test.cpp" />
+    <ClCompile Include="index_handle.cpp" />
+    <ClCompile Include="block_init_test.cpp" />
+  </ItemGroup>
+</Project>
